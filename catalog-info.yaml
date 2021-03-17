@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "backstage-spring-example"
+  description: "example"
+  annotations:
+    github.com/project-slug: towelrod2/backstage-spring-example
+    backstage.io/techdocs-ref: url:https://github.com/towelrod2/backstage-spring-example
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "Mike"
